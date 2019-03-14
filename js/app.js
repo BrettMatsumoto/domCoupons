@@ -79,6 +79,10 @@ var headLoc = document.getElementsByClassName('block3');
 headLoc[1].appendChild(newBrand3)
 
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
+var newItem4 = document.createElement('div');
+newItem4.className = 'item';
+newItem4.innerHTML = 'Electronstatic Headphones';
+headLoc[1].appendChild(newItem4);
 
 //15. Create a div element with the class of 'price' and give it a content of $18,000. Append this element in the headphones section.
 
