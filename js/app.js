@@ -117,6 +117,14 @@ uniButt[3].innerHTML = 'Free knee-high tube socks with purchase!'
 //div.item =  Poppin' Jalapeno Doritos
 //div.price = $7.77
 // button.discount = 33% OFF any 6 pack Budweiser or Bud Light.
+var dorBrand = document.getElementsByClassName('brand');
+dorBrand[4].innerHTML = 'Frito Lay';
+var dorItem = document.getElementsByClassName('item');
+dorItem[4].innerHTML = "Poppin' Jalapeno Doritos";
+var dorPrice = document.getElementsByClassName('price');
+dorPrice[4].innerHTML = '$7.77';
+var dorButt = document.getElementsByClassName('discount');
+dorButt[4].innerHTML = '33% OFF any 6 pack Budweiser or Bud Light.'
 
 //19. For the Pug, change the contents for each element to the following:
 //div.brand = Any Dog Breeder
