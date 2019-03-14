@@ -19,6 +19,8 @@ var newItem1 = document.getElementById('item1');
 newItem1.innerHTML = 'Cheeseburger Oreos';
 
 //4. Target the div element with the id of 'price1' and update the content to $8.99.
+var newPrice1 = document.getElementById('price1');
+newPrice1.innerHTML = '$8.99';
 
 //5. Target the button element with the id of 'discount1' and update the content to Free fries with purchase!
 
