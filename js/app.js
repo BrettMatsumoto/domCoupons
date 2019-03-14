@@ -6,9 +6,17 @@
 
 var finePrint = 'Coupons VALID from Tuesday 12/4/2018 thru Saturday 6/29/2019. All sales FINAL. NO REFUNDS and EXCHANGES. And definitely NO RAINCHECKS! And ONLY POSITIVE reviews allowed on Social Media (FB, Instagram, Twitter, Yelp, etc.). And PLEASE Follow us on FB, Instagram, Twitter.'
 
+var newDis = document.getElementById('disclaimer');
+newDis.innerHTML = finePrint;
+
 //2. Target the div elemenet with the id of 'brand1' and update the content to Nabisco.
+var newBrand1 = document.getElementById('brand1');
+newBrand1.innerHTML = 'Nabisco';
 
 //3. Target the div element with the id of 'item1' and update the content with Cheeseburger Oreos. 
+
+var newItem1 = document.getElementById('item1');
+newItem1.innerHTML = 'Cheeseburger Oreos';
 
 //4. Target the div element with the id of 'price1' and update the content to $8.99.
 
