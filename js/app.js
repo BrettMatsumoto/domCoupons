@@ -85,6 +85,10 @@ newItem4.innerHTML = 'Electronstatic Headphones';
 headLoc[1].appendChild(newItem4);
 
 //15. Create a div element with the class of 'price' and give it a content of $18,000. Append this element in the headphones section.
+var newPrice4 = document.createElement('div');
+newPrice4.className = 'price';
+newPrice4.innerHTML = '$18,000';
+headLoc[1].appendChild(newPrice4);
 
 //16. Create a button element with the class of 'discount' and give it a content of Free Barry Manilow CD with purchase! Append this element in the headphones section.
 
