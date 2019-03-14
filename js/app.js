@@ -72,6 +72,12 @@ newPrice3[1].innerHTML = '10,000';
 
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
 
+var newBrand3 = document.createElement('div');
+newBrand3.className = 'brand';
+newBrand3.innerHTML = 'Hifiman Shangri-La';
+var headLoc = document.getElementsByClassName('block3');
+headLoc[1].appendChild(newBrand3)
+
 //14. Create a div element with the class of 'item' and give it a content of Electronstatic Headphones. Append this element in the headphones section. 
 
 //15. Create a div element with the class of 'price' and give it a content of $18,000. Append this element in the headphones section.
