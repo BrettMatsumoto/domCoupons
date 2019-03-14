@@ -67,6 +67,8 @@ var newBrand2 = document.getElementsByClassName('brand');
 newBrand2[1].innerHTML = 'Uniqlo';
 
 //12. Target the div element with the class of 'price' for the red hoodie section and update the content to 10,000. 
+var newPrice3 = document.getElementsByClassName('price');
+newPrice3[1].innerHTML = '10,000';
 
 //13. Create a div element with the class of 'brand' and give it a content of Hifiman Shangri-La. Append this element in the headphones section. 
 
