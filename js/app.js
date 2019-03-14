@@ -27,6 +27,10 @@ var newDiscount1 = document.getElementById('discount1');
 newDiscount1.innerHTML = 'Free fries with purchase!';
 
 //6. Create a div element with the id of 'item2' and update the content to Hendrick's Gin. Append this element to William Grand & Sons div.
+var newItem2 = document.createElement('div');
+newItem2.id = 'item2';
+newItem2.innerHTML = "Hendrick's Gin";
+brand2.appendChild(newItem2)
 
 //7. Create a div element with the id of 'price2' and update the content to $34.99. Append this element to the Hendrick's Gin div.
 
